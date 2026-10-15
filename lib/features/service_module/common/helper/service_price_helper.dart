@@ -1,3 +1,0 @@
-class ServicePriceDisplay {}
-
-class ServicePriceHelper {}
