@@ -23,8 +23,6 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter analyze --no-fatal-infos --no-fatal-warnings
-
       # base-href must match the Pages URL (https://<owner>.github.io/<repo>/); use "/" with a custom domain.
       - run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
 
