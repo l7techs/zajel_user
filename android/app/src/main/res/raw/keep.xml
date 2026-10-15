@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- CUSTOM: release builds shrink unused resources, and these are only referenced by name from Dart
-     (notification_helper.dart: AndroidInitializationSettings('notification_icon'),
-     RawResourceAndroidNotificationSound('notification')), so the shrinker removed them and
-     local notifications failed with "notification_icon could not be found". Keep them. -->
-<resources xmlns:tools="http://schemas.android.com/tools"
-    tools:keep="@drawable/notification_icon,@raw/notification" />
